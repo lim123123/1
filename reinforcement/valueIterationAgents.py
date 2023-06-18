@@ -228,4 +228,3 @@ class PrioritizedSweepingValueIterationAgent(AsynchronousValueIterationAgent):
                 if diff > self.theta:
                     self.queue.update(p, -diff)
 
-
